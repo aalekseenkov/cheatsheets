@@ -84,6 +84,10 @@ git commit --amend
 ```
 _Note: You shouldn't amend published commits!_
 
+Add the empty initial commit
+```
+git commit --allow-empty -m "Initial commit"
+```
 ## Commit History
 Show all commits
 ```
@@ -266,5 +270,7 @@ Reset your HEAD pointer to a previous commit
 ```
 
 ## Notes
-Based on the cheat sheet from [Tower.app](http://www.git-tower.com/blog/git-cheat-sheet/)
+- Based on the cheat sheet from [Tower.app](http://www.git-tower.com/blog/git-cheat-sheet/)
+- Some commands from the books "Code That Fits in Your Head"
+- Some commands from the books "Head First. Git"
 
