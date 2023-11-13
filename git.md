@@ -128,6 +128,10 @@ List all local and remote branches
 ```
 git branch -a
 ```
+List all local and remote branches with sha1, commit subject line and name of the upstream branch
+```
+git branch -avv
+```
 List all remote branches
 ```
 git branch -r
@@ -273,4 +277,3 @@ Reset your HEAD pointer to a previous commit
 - Based on the cheat sheet from [Tower.app](http://www.git-tower.com/blog/git-cheat-sheet/)
 - Some commands from the books "Code That Fits in Your Head"
 - Some commands from the books "Head First. Git"
-
